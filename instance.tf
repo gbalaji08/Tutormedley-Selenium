@@ -4,7 +4,7 @@ provider "aws" {
   secret_key = var.AWS_SECRET_ACCESS_KEY
 }
 resource "aws_instance" "web" {
-  ami           = "ami-02dc8ad50da58fffd"
+  ami           = "ami-0743788e185274ba7"
   instance_type = "t3.micro"
   tags = {
 	Name = "Hello-GBH-Test"
